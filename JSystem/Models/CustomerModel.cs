@@ -1,6 +1,6 @@
 ﻿namespace JSystem.Models
 {
-    public class CostumerModel
+    public class CustomerModel
     {
         public Guid Id { get; set; }
         public string Email { get; set; }

@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace JSystem.Dados.ConfigurationModel
 {
-    public class CostumerConfiguration : IEntityTypeConfiguration<CostumerModel>
+    public class CustomerConfiguration : IEntityTypeConfiguration<CustomerModel>
     {
-        public void Configure(EntityTypeBuilder<CostumerModel> builder)
+        public void Configure(EntityTypeBuilder<CustomerModel> builder)
         {
             builder
                 .Property(x => x.Id)
